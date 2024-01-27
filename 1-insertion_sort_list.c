@@ -28,14 +28,14 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *x, *y;
 
-	if ( !list || !*list || !(*list)->next)
+	if (!list || !*list || !(*list)->next)
 		return;
 	x = (*list)->next;
 	while (x)
 	{
 		y = x;
 		x = x->next;
-		while ( y && y->prev)
+		while (y && y->prev)
 		{
 			if (y->prev->n > y->n)
 			{
