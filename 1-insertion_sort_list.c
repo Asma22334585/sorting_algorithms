@@ -1,13 +1,13 @@
 #include "sort.h"
 
 /**
- * swap_n - swap tow nodes
+ * swap_n - swap tow nodes in list
  * @a1: node 1 address
  * @a2: node 2 address
  * Return: void
  */
 
-void swap_n(listint_t *a1, listint_t a2)
+void swap_n(listint_t *a1, listint_t *a2)
 {
 	if (a1->prev)
 		a1->prev->next = a2;
