@@ -12,7 +12,7 @@ size_t m_g(size_t size)
 	i = 0;
 	while (i < size)
 		i = i * 3 + 1;
-	return ((n - 1) / 3);
+	return ((i - 1) / 3);
 }
 
 /**
