@@ -24,7 +24,7 @@ size_t m_g(size_t size)
 void shell_sort(int *array, size_t size)
 {
 	int temp;
-	size_t x, y ,gap;
+	size_t x, y, gap;
 
 	if (!array || !size)
 		return;
